@@ -10,6 +10,7 @@ function App() {
   const [Pref, setPref] = useState("");
   const [showPopup, setShowPopup] = useState(false)
 
+
   const handleChangeName= (e) => {
     setName(e.target.value);
   };
@@ -23,11 +24,12 @@ function App() {
   
   const handleSubmit = (e) => {
     const formEle = document.querySelector("form");
-    e.preventDefault()
+    e.preventDefault();
     console.log("Submitted")
     setName("");
     setEmail("");
     setPref("");
+    formEle.reset();
     setShowPopup(true);
     const formData = new FormData(formEle)
     fetch("https://script.google.com/macros/s/AKfycbx2lj-xS4Ksevj-ayBCAvg7PB7Gm0HvhuAoCOJ67-6CFvVJnOzVPU4KdYgKPsBA-r3G/exec",
@@ -64,12 +66,12 @@ function App() {
      </p>
 
       </header>
-      <div className="Content">
+      <div className="Content js-scroll">
         <p className="Section-title">Content</p>
       </div>
-      <div className="Content">
+      <div className="Content js-scroll">
      
-      {showPopup ? <Popup text="Tack för din OSA!" closePopup={() => setShowPopup(false)} /> : null}
+      {showPopup ? <Popup text="Tack för ditt svar! Glöm inte att OSA för alla i ditt sällskap :)" closePopup={() => setShowPopup(false)} /> : null}
     
       <form className="form" onSubmit={handleSubmit}>
         <p className="Form-title">För- och efternamn</p>
@@ -80,6 +82,9 @@ function App() {
         value={Name}
         placeholder="För- och efternamn"
         className="form-input"
+        required
+        onInvalid={(e) => e.target.setCustomValidity('Vänligen fyll i ditt namn')}
+        onInput={(e) => e.target.setCustomValidity('')}
         />
         <p className="Form-title">Mailadress</p>
         <input
@@ -89,6 +94,9 @@ function App() {
         value={Email}
         placeholder="Mailadress"
         className="form-input"
+        required
+        onInvalid={(e) => e.target.setCustomValidity('Vänligen fyll i din mailadress')}
+        onInput={(e) => e.target.setCustomValidity('')}
       />
 
       <label class="form-control">
@@ -96,7 +104,10 @@ function App() {
        type="radio" 
        name="OSA" 
        value="Jag kommer!"
-       className="form-input-radio"/>
+       className="form-input-radio"
+       required
+      onInvalid={(e) => e.target.setCustomValidity('Vänligen fyll i om du kan komma')}
+      onInput={(e) => e.target.setCustomValidity('')}/>
         Jag kommer!
       </label>
   
@@ -108,6 +119,7 @@ function App() {
        className="form-input-radio"/>
        Jag kan tyvärr inte komma
        </label>
+
         <p className="Form-title">Matpreferenser</p>
         <input
         type="text"
