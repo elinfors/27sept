@@ -10,6 +10,10 @@
     }
     .popup-body {
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4%;
     left: 30%;
     right: 30%;
     bottom: 30%;
@@ -22,7 +26,25 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
     .popup-button{
-        border-radius: 5%;
-        background-color: black;
+        border-radius: 2vh;
+        border:none;
+        background-color:  #625548;
         color: white;
+        padding: 5% 10%;
+        width:100%;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: 'Poppins';
+        cursor: pointer;
+    }
+    .popup-button:hover{
+      background-color:   #75675a;
+    }
+    .popup-button:focus{
+      background-color:   #958471;
+    }
+
+    .popup-text-container{
+        margin-bottom: 10%;
     }

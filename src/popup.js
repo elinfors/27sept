@@ -4,8 +4,12 @@ export const Popup = ({ text, closePopup }) => {
   return (
     <div className="popup-container">
      <div className="popup-body">
-      <h1>{text}</h1>
-      <button className="popup-button" onClick={closePopup}>Stäng</button>
+        <div className="popup-text-container">
+            {text}
+        </div>
+
+            <button className="popup-button" onClick={closePopup}>Stäng</button>
+
      </div>
     </div>
   );

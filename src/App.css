@@ -12,25 +12,35 @@
   background-image: url(./headerImage.png);
   min-height: 100vh;
   display: flex;
-  width:100%;
+  flex-direction: column;
+  justify-content: center;
 }
-#Homepage_title{
-  font-size: calc(100px + 2vmin);
+.header-title-ElinSimon{
+  font-size: calc(70px + 2vmin);
   font-family: "Arapey", serif;
+  color: #efefe3;
+  align-items: center;
+  padding:20%;
 
 }
 .App-link {
   color: #61dafb;
 }
 
-.Content{
+.Schedule-content{
   background-color: #efefe3;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: rgb(0, 0, 0);
-
+}
+.Info-content{
+  background-color: #625548;
+  color: #efefe3;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .Section-title{
   font-family:"Arapey", sans-serif;
@@ -38,49 +48,81 @@
   font-style: normal;
   font-size: calc(50px + 2vmin);
 }
-.form{
+.form-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 110%;
+    background-color:  #efefe3;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 20%;
+    padding-top: 10%;
+    }
+
+.form-container form{
   display: flex;
   flex-direction: column;
-  padding: 20%
-}
-
-.form input {
-  height: 30px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  padding: 5px;
-  border-style: none;
-
-}
-.form-input-radio{
-align-items: left;
-background-color: black;
-}
-.form :last-child{
   width: 100%;
-  background-color: rgb(85, 87, 73);
-  color: white;
+  align-items: center;
+  row-gap: 1em;
+}
+.form-input-section{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  row-gap: 0.3em;
+}
+.form-radio-section{
+  display: flex;
+    width: 80%;
+    column-gap: 1em;
+    flex-direction: column;
+    row-gap: 1em;
+    cursor: pointer;
+}
+.form-radio-item{
+  display: flex;
+  column-gap: 1em;
+  cursor: pointer;
+}
+.form-container label {
+  font-size: 0.8em;
+  text-align: left;
+}
+.form-container input {
+  border-radius: 5px;
+  border: none;
+  letter-spacing: 0.1em;
+  background: #ffffff;
+  color:#625548;
+  font-size: 0.7em;
+  padding: 0.5em;
+  font-family: 'Poppins';
 }
 
-.Form-title{
-  font-size: calc(2px + 2vmin);
-  color: rgb(85, 87, 73);
-  text-align: left;
+.submit-button{
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 3px;
+    background-color:  #625548;
+    padding: 0.7em 1em 0.7em 1em;
+    border-radius: 2vh;
+    border: none;
+    cursor: pointer;
 }
-.form-control{
-  display: grid;
-  grid-template-columns: 1em auto;
-  gap: 2em;
-  color: black;
-  font-size: calc(2px + 2vmin);
-  color: rgb(85, 87, 73);
-  text-align: left;
-  line-height: 2;
+.submit-button:hover{
+  background-color:  #75675a;;
+}
+.submit-button:focus{
+  background-color:  #958471;
 }
 
 @media only screen and (max-width: 600px) {
-  .form {
-    padding: 10%
+  .form-container {
+    padding-left: 1%;
+    padding-right: 1%;
   }
 }
 
