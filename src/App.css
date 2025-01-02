@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  width: 100%;
 }
 .js-scroll.scrolled {
   opacity: 1;
@@ -9,34 +10,67 @@
   transition: opacity 1000ms;
 }
 .App-header {
-  background-image: url(./headerImage.png);
+  background-image: url(./headerImage6.png);
+  background-position: top center;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .header-title-ElinSimon{
-  font-size: calc(70px + 2vmin);
+  font-size: calc(90px + 2vmin);
   font-family: "Arapey", serif;
-  color: #efefe3;
+  color: #8F021E;
   align-items: center;
-  padding:20%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 10%;
+  padding-top: 10%;
 
+}
+.header-date{
+  font-size: calc(40px + 2vmin);
+  color: #8F021E;
+  font-family: "Arapey", serif;
+  letter-spacing: 0.1em;
+
+}
+.header-date-small{
+  font-size: calc(8px + 2vmin);
+  color: #8F021E;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+.header-location{
+  font-size: calc(8px + 2vmin);
+  color: #8F021E;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
 .App-link {
   color: #61dafb;
 }
 
 .Schedule-content{
-  background-color: #efefe3;
+  background-color: #282B80;
+  color: #FFF7CF;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Info-content-2{
+  background-color: #FFF7CF;
+  color: #8F021E;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .Info-content{
-  background-color: #625548;
-  color: #efefe3;
+  background-color: #610013;
+  color: #FFF7CF;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -47,30 +81,47 @@
   font-weight: 400;
   font-style: normal;
   font-size: calc(50px + 2vmin);
+  margin-bottom: 10%;
+}
+.Form-content{
+  background-image: url(./footerImage.png);
+  background-position: bottom center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 .form-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    height: 110%;
-    background-color:  #efefe3;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-bottom: 20%;
+    width:100%;
+    padding-right:10%;
+    padding-left: 0.5%;
     padding-top: 10%;
+    padding-bottom: 10%;
+    justify-content: center;
     }
-
+.form-description{
+  display: flex;
+  flex-direction: column;
+  width:60%;
+  padding:10%;
+  justify-content: center;
+  font-size: 0.8em;
+}
 .form-container form{
   display: flex;
   flex-direction: column;
-  width: 100%;
-  align-items: center;
+  width: 80%;
+  align-items: left;
   row-gap: 1em;
 }
 .form-input-section{
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
   row-gap: 0.3em;
 }
 .form-radio-section{
@@ -95,7 +146,7 @@
   border: none;
   letter-spacing: 0.1em;
   background: #ffffff;
-  color:#625548;
+  color:#8F021E;
   font-size: 0.7em;
   padding: 0.5em;
   font-family: 'Poppins';
@@ -111,6 +162,7 @@
     border-radius: 2vh;
     border: none;
     cursor: pointer;
+    width:100px;
 }
 .submit-button:hover{
   background-color:  #75675a;;
@@ -121,9 +173,30 @@
 
 @media only screen and (max-width: 600px) {
   .form-container {
-    padding-left: 1%;
-    padding-right: 1%;
+    padding:5%;
+    margin-top: 10%;
+    justify-content: center;
   }
+    .form-description{
+    width:100%;
+    padding:5%;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    margin-top: 10%;
+    }
+  .header-title-ElinSimon{
+    font-size: calc(50px + 2vmin);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 20%;
+    padding-top: 20%;
+}
+.Form-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 }
 
 .poppins-thin {

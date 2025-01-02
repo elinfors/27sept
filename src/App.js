@@ -50,30 +50,42 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header js-scroll scrolled">
+      <div className="header-date">
+          27 09 25
+          </div>
         <div className="header-title-ElinSimon">
           ELIN & SIMON
           </div>
-          <div className="header-date">
-          27 09 25
-          </div>
           <div className="header-date-small">
-          27 September 2025
+          27 september 2025
           </div>
           <div className="header-location">
           Södermalm
           </div>
+          <div className="header-button">
+          OSA här
+          </div>
       </header>
       <div className="Schedule-content js-scroll">
+        <p className="Section-title">Content</p>
+      </div>  
+      <div className="Info-content-2 js-scroll">
         <p className="Section-title">Content</p>
       </div>
       <div className="Info-content js-scroll">
         <p className="Section-title">Content</p>
       </div>
-      <div className= "form-container js-scroll">
+      <div className='Form-content js-scroll'>
+          <div className="form-description">
+          <div className="Section-title">OSA</div>
+          <div>OSA genom att fylla i formuläret, senast den 30e juni 2025.</div>
+          <div>Vu uppskattar om ni vill OSA en gång per person så att vi kan hålla koll på matpreferenser och allergier, tack!</div>
+         </div>
+      <div className= "form-container">
      
-      {showPopup ? <Popup text="Tack för ditt svar! Glöm inte att OSA för alla i ditt sällskap :)" closePopup={() => setShowPopup(false)} /> : null}
-    
+      {showPopup ? <Popup closePopup={() => setShowPopup(false)} /> : null}
+  
       <form className="form" onSubmit={handleSubmit}>
         <div className="form-input-section">
             <label>För- och efternamn</label>
@@ -98,9 +110,9 @@ function App() {
             value={Email}
             placeholder="Mailadress"
             className="form-input"
-            required
+            /*required
             onInvalid={(e) => e.target.setCustomValidity('Vänligen fyll i din mailadress')}
-            onInput={(e) => e.target.setCustomValidity('')}
+            onInput={(e) => e.target.setCustomValidity('')}*/
           />
         </div>
         <div className="form-radio-section">
@@ -141,6 +153,7 @@ function App() {
   
     </form>
 
+      </div>
       </div>
     </div>
   );
