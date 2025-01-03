@@ -20,7 +20,8 @@
 }
 .header-title-ElinSimon{
   font-size: calc(90px + 2vmin);
-  font-family: "Arapey", serif;
+  font-family: "Cormorant", serif;
+  font-weight: 300;
   color: #8F021E;
   align-items: center;
   padding-left: 5%;
@@ -30,9 +31,10 @@
 
 }
 .header-date{
+  margin-top: 10%;
   font-size: calc(40px + 2vmin);
   color: #8F021E;
-  font-family: "Arapey", serif;
+  font-family: "Cormorant", serif;
   letter-spacing: 0.1em;
 
 }
@@ -77,7 +79,7 @@
   justify-content: center;
 }
 .Section-title{
-  font-family:"Arapey", sans-serif;
+  font-family:"Cormorant", serif;
   font-weight: 400;
   font-style: normal;
   font-size: calc(50px + 2vmin);
@@ -93,6 +95,7 @@
   justify-content: space-evenly;
 }
 .form-container{
+  color: #8F021E;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,6 +107,7 @@
     justify-content: center;
     }
 .form-description{
+  color:#8F021E;
   display: flex;
   flex-direction: column;
   width:60%;
@@ -146,18 +150,18 @@
   border: none;
   letter-spacing: 0.1em;
   background: #ffffff;
-  color:#8F021E;
+  color:#717171;
   font-size: 0.7em;
   padding: 0.5em;
   font-family: 'Poppins';
 }
 
 .submit-button{
-    color: #ffffff;
+    color: #FFF7CF;
     text-align: center;
     font-size: 15px;
     letter-spacing: 3px;
-    background-color:  #625548;
+    background-color:  #8F021E;
     padding: 0.7em 1em 0.7em 1em;
     border-radius: 2vh;
     border: none;
@@ -165,10 +169,10 @@
     width:100px;
 }
 .submit-button:hover{
-  background-color:  #75675a;;
+  background-color:  #610013;;
 }
 .submit-button:focus{
-  background-color:  #958471;
+  background-color:  #8f132c;
 }
 
 @media only screen and (max-width: 600px) {
@@ -307,16 +311,33 @@
   font-style: italic;
 }
 
-.arapey-regular {
-  font-family: "Arapey", serif;
+.cormorant-light> {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.cormorant-regular> {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
-
-.arapey-regular-italic {
-  font-family: "Arapey", serif;
-  font-weight: 400;
-  font-style: italic;
+.cormorant-medium {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
-
-
+.cormorant-semibold {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.cormorant-bold {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}

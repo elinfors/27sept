@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import { Popup } from "./popup"
+import { useRef } from 'react'
 
 
 function App() {
@@ -46,6 +47,13 @@ function App() {
         console.log(error);
       });
   }
+  const scrollToBottom = () => window.scrollTo({
+    top: document.documentElement.scrollHeight,
+    behavior: 'smooth'     
+    })   
+
+  
+    const myRefBottom = useRef(null)
 
 
   return (
@@ -64,7 +72,7 @@ function App() {
           Södermalm
           </div>
           <div className="header-button">
-          OSA här
+          <button className="OSA-button" onClick={scrollToBottom}>OSA</button>
           </div>
       </header>
       <div className="Schedule-content js-scroll">
@@ -82,7 +90,7 @@ function App() {
           <div>OSA genom att fylla i formuläret, senast den 30e juni 2025.</div>
           <div>Vu uppskattar om ni vill OSA en gång per person så att vi kan hålla koll på matpreferenser och allergier, tack!</div>
          </div>
-      <div className= "form-container">
+      <div className= "form-container" ref={myRefBottom}>
      
       {showPopup ? <Popup closePopup={() => setShowPopup(false)} /> : null}
   
