@@ -54,7 +54,8 @@
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-family: 'Poppins';
+        font-family: "lato", serif;
+        font-weight: 400;
         cursor: pointer;
     }
     .popup-button:hover{

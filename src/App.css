@@ -18,38 +18,81 @@
   flex-direction: column;
   justify-content: center;
 }
+.header-content{
+  padding: 10%;
+  justify-content: center;
+}
 .header-title-ElinSimon{
-  font-size: calc(90px + 2vmin);
+  font-size: calc(100px + 2vmin);
   font-family: "Cormorant", serif;
-  font-weight: 300;
+  letter-spacing: 2px;
   color: #8F021E;
   align-items: center;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 10%;
-  padding-top: 10%;
-
+  padding:10%;
 }
-.header-date{
-  margin-top: 10%;
-  font-size: calc(40px + 2vmin);
-  color: #8F021E;
-  font-family: "Cormorant", serif;
-  letter-spacing: 0.1em;
 
+.header-small-title{
+  margin-top: 1%;
+  font-size: calc(2px + 2vmin);
+  color: #8F021E;
+  font-family: "Lato", serif;
+  letter-spacing: 1px;
 }
 .header-date-small{
-  font-size: calc(8px + 2vmin);
+  margin-top: 1%;
+  font-size: calc(2px + 2vmin);
   color: #8F021E;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
+  font-family: "lato", serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+
 }
 .header-location{
-  font-size: calc(8px + 2vmin);
+  margin-top: 1%;
+  font-size: calc(2px + 2vmin);
   color: #8F021E;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
+  font-family: "Cormorant", serif;
+
 }
+.header-button{
+  padding: 2%;
+}
+.OSA-button{
+  color: #FFF7CF;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 3px;
+    background-color:  #8F021E;
+    padding: 0.7em 1em 0.7em 1em;
+    border-radius: 2vh;
+    border: none;
+    cursor: pointer;
+    width:100px;
+    font-family: "lato", serif;
+    font-weight: 400;
+}
+
+.submit-button{
+    color: #FFF7CF;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 3px;
+    background-color:  #8F021E;
+    padding: 0.7em 1em 0.7em 1em;
+    border-radius: 2vh;
+    border: none;
+    cursor: pointer;
+    width:100px;
+    font-family: "lato", serif;
+    font-weight: 400;
+}
+.submit-button:hover{
+  background-color:  #610013;;
+}
+.submit-button:focus{
+  background-color:  #8f132c;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -153,7 +196,7 @@
   color:#717171;
   font-size: 0.7em;
   padding: 0.5em;
-  font-family: 'Poppins';
+  font-family: 'Lato';
 }
 
 .submit-button{
@@ -340,4 +383,63 @@
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+}
+.lato-thin {
+  font-family: "Lato", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", serif;
+  font-weight: 900;
+  font-style: italic;
 }

@@ -53,26 +53,26 @@ function App() {
     })   
 
   
+
     const myRefBottom = useRef(null)
 
 
   return (
     <div className="App">
       <header className="App-header js-scroll scrolled">
-      <div className="header-date">
-          27 09 25
+        <div className='header-content'>
+      <div className="header-small-title">
+          Vi ska gifta oss!
           </div>
         <div className="header-title-ElinSimon">
-          ELIN & SIMON
+          Elin & Simon
           </div>
           <div className="header-date-small">
           27 september 2025
           </div>
-          <div className="header-location">
-          Södermalm
-          </div>
           <div className="header-button">
           <button className="OSA-button" onClick={scrollToBottom}>OSA</button>
+          </div>
           </div>
       </header>
       <div className="Schedule-content js-scroll">
