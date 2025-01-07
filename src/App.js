@@ -3,6 +3,9 @@ import './App.css';
 import { Popup } from "./popup"
 import { useRef } from 'react'
 import church from './högalid.png'
+import church_color from './Kyrka_trabsparent.png'
+import torn from './torn.png'
+import venue from './Carlshälls.png'
 
 
 function App() {
@@ -63,13 +66,13 @@ function App() {
       <header className="App-header js-scroll scrolled">
         <div className='header-content'>
       <div className="header-small-title">
-          Vi ska gifta oss!
+          27 september 2025
           </div>
         <div className="header-title-ElinSimon">
-          Elin & Simon
+          ELIN & SIMON
           </div>
           <div className="header-date-small">
-          27 september 2025
+          Vi ska gifta oss och hoppas att du vill fira det ihop med oss!
           </div>
           <div className="header-button">
           <button className="OSA-button" onClick={scrollToBottom}>OSA</button>
@@ -78,21 +81,21 @@ function App() {
       </header>
       <div className="Schedule-content js-scroll">
           <div className="Schedule-container">
-          <p className="Section-title">Högalidskyrkan</p>
-          <p className="Section-second-title">14.45</p>
-          <p className="Section-description-light"> Vigsel mellan Simon & Elin i Högalidskyrkan</p>
-          <p className="Section-description-light"> Högalids kyrkväg 7</p>
-          <p className="Section-description-light"> 117 30 Stockholm</p>
+            <p className="Section-title">Högalidskyrkan</p>
+            <p className="Section-second-title">14.45</p>
+            <p className="Section-description-light"> Vigsel mellan Simon & Elin i Högalidskyrkan</p>
+            <p className="Section-description-light"> Högalids kyrkväg 7</p>
+            <p className="Section-description-light"> 117 30 Stockholm</p>
           </div>
           <div className="Schedule-image-container">
-          <img className="Church-image" src={church}></img>
+          <img className="Church-image" src={torn}></img>
           </div>
       </div>  
-      <div className="Info-content js-scroll">
-         <div className="Info-image-container">
-            <img className="Church-image" src={church}></img>
+      <div className="Venue-content js-scroll">
+          <div className="Venue-image-container">
+            <img className="Church-image" src={venue}></img>
           </div>
-          <div className="Info-container">
+          <div className="Venue-container">
             <p className="Section-title">Carlshälls gård</p>
             <p className="Section-description"> Gemensam promenad till Carlshälls Gård på Långholmen för mingel med efterföljande middag & fest.</p>
             <p className="Section-description"> Det tar ungefär 20 minuter att gå, men det går även bra att ta sig dit via taxi.</p>
@@ -100,8 +103,17 @@ function App() {
             <p className="Section-description"> 117 30 Stockholm</p>
           </div>
       </div>      
-      <div className="Info-content-2 js-scroll">
+      <div className="Info-content js-scroll">
+      <div className="Venue-container">
         <p className="Section-title">Content</p>
+            <p className="Section-description-light"> Gemensam promenad till Carlshälls Gård på Långholmen för mingel med efterföljande middag & fest.</p>
+            <p className="Section-description-light"> Det tar ungefär 20 minuter att gå, men det går även bra att ta sig dit via taxi.</p>
+            <p className="Section-description-light"> Högalids kyrkväg 7</p>
+            <p className="Section-description-light"> 117 30 Stockholm</p>
+        </div>
+        <div className="Schedule-image-container">
+          <img className="Church-image" src={torn}></img>
+          </div>
       </div>
       <div className='Form-content js-scroll'>
           <div className="form-description">
