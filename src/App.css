@@ -96,24 +96,75 @@
 .App-link {
   color: #61dafb;
 }
+.Section-description{
+  font-size: 0.8em;
+  color: #8F021E;
+  font-family: "lato", serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.Section-description-light{
+  color: #FFF7CF;
+  font-size: 0.8em;
+  font-family: "lato", serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
 
 .Schedule-content{
   background-color: #282B80;
   color: #FFF7CF;
   min-height: 100vh;
+  max-height: 100vh;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
-.Info-content-2{
-  background-color: #FFF7CF;
-  color: #8F021E;
-  min-height: 100vh;
+.Schedule-container{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    padding:10%;
+    justify-content: center;
+}
+.Schedule-image-container{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    justify-content: center;
+    padding:10%;
+  
+}
+.Church-image{
+  max-width: 80%;
 }
 .Info-content{
+  background-color: #FFF7CF;
+  color: #610013;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.Info-container{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    padding:10%;
+    justify-content: center;
+}
+.Info-image-container{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    justify-content: center;
+  
+}
+.Info-content-2{
   background-color: #610013;
   color: #FFF7CF;
   min-height: 100vh;
@@ -121,12 +172,14 @@
   flex-direction: column;
   justify-content: center;
 }
+
 .Section-title{
   font-family:"Cormorant", serif;
   font-weight: 400;
   font-style: normal;
   font-size: calc(50px + 2vmin);
   margin-bottom: 10%;
+  letter-spacing: 1px;
 }
 .Form-content{
   background-image: url(./footerImage.png);
@@ -244,6 +297,25 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.Schedule-container{
+  padding:5%;
+  margin-top: 10%;
+  justify-content: center;
+}
+.Schedule-image-container{
+  width:100%;
+  padding:5%;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8em;
+  margin-top: 10%;
+  
+}
+.Church-image{
+  max-width: 80%;
+}
+
 }
 
 .poppins-thin {

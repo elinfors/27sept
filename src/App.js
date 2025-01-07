@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import { Popup } from "./popup"
 import { useRef } from 'react'
+import church from './högalid.png'
 
 
 function App() {
@@ -76,12 +77,30 @@ function App() {
           </div>
       </header>
       <div className="Schedule-content js-scroll">
-        <p className="Section-title">Content</p>
+          <div className="Schedule-container">
+          <p className="Section-title">Högalidskyrkan</p>
+          <p className="Section-second-title">14.45</p>
+          <p className="Section-description-light"> Vigsel mellan Simon & Elin i Högalidskyrkan</p>
+          <p className="Section-description-light"> Högalids kyrkväg 7</p>
+          <p className="Section-description-light"> 117 30 Stockholm</p>
+          </div>
+          <div className="Schedule-image-container">
+          <img className="Church-image" src={church}></img>
+          </div>
       </div>  
-      <div className="Info-content-2 js-scroll">
-        <p className="Section-title">Content</p>
-      </div>
       <div className="Info-content js-scroll">
+         <div className="Info-image-container">
+            <img className="Church-image" src={church}></img>
+          </div>
+          <div className="Info-container">
+            <p className="Section-title">Carlshälls gård</p>
+            <p className="Section-description"> Gemensam promenad till Carlshälls Gård på Långholmen för mingel med efterföljande middag & fest.</p>
+            <p className="Section-description"> Det tar ungefär 20 minuter att gå, men det går även bra att ta sig dit via taxi.</p>
+            <p className="Section-description"> Högalids kyrkväg 7</p>
+            <p className="Section-description"> 117 30 Stockholm</p>
+          </div>
+      </div>      
+      <div className="Info-content-2 js-scroll">
         <p className="Section-title">Content</p>
       </div>
       <div className='Form-content js-scroll'>
