@@ -79,24 +79,10 @@
     font-weight: 400;
 }
 
-.submit-button{
-    color: #FFF7CF;
-    text-align: center;
-    font-size: 15px;
-    letter-spacing: 3px;
-    background-color:  #8F021E;
-    padding: 0.7em 1em 0.7em 1em;
-    border-radius: 2vh;
-    border: none;
-    cursor: pointer;
-    width:100px;
-    font-family: "lato", serif;
-    font-weight: 400;
-}
-.submit-button:hover{
+.OSA-button:hover{
   background-color:  #610013;;
 }
-.submit-button:focus{
+.OSA-button:focus{
   background-color:  #8f132c;
 }
 
@@ -110,6 +96,7 @@
   font-weight: 400;
   letter-spacing: 1px;
   margin-top: 5%;
+  
 }
 .Section-description-light{
   color: #FFF7CF;
@@ -121,7 +108,7 @@
 }
 .Section-description-info{
   font-size: 1em;
-  color: #8F021E;
+  color: #FFF7CF;
   font-family: "lato", serif;
   font-weight: 400;
   letter-spacing: 1px;
