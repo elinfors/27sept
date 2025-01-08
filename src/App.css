@@ -20,8 +20,9 @@
 }
 .header-content{
   padding: 7%;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 .header-title-ElinSimon{
   font-size: 7em;
