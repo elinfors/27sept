@@ -86,7 +86,7 @@ function App() {
             <p className="Section-description-info"> Högalids kyrkväg 7 <br></br> 117 30 Stockholm </p>
           </div>
           <div className="Schedule-image-container">
-          <img className="Church-image" src={torn}></img>
+          <img className="Church-image" src={venue}></img>
           </div>
       </div>  
       <div className="Venue-content js-scroll">
