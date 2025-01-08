@@ -83,8 +83,9 @@ function App() {
           <div className="Schedule-container">
             <p className="Section-title">Högalids&shy;kyrkan</p>
             <p className="Section-second-title">14.45</p>
-            <p className="Section-description-light"> Vigsel mellan Simon & Elin i Högalidskyrkan</p>
-            <p className="Section-description-light"> Högalids kyrkväg 7 <br></br> 117 30 Stockholm </p>
+            <p className="Section-description-light"> Vigsel mellan Simon & Elin i Högalidskyrkan.<br></br>Varmt välkomna att vara på plats med lite marginal så alla hinner ta plats innan vi drar igång.</p>
+            <p className='Info-title'>HITTA DIT</p>
+            <p className="Section-description-info"> Högalids kyrkväg 7 <br></br> 117 30 Stockholm </p>
           </div>
           <div className="Schedule-image-container">
           <img className="Church-image" src={torn}></img>
@@ -99,7 +100,8 @@ function App() {
             <p className="Section-second-title">16.30</p>
             <p className="Section-description"> Gemensam promenad till Carlshälls Gård på Långholmen för mingel från 16.30 med efterföljande middag & fest mellan 18 och 03.</p>
             <p className="Section-description"> Det tar ungefär 20 minuter att gå, men det går även bra att ta sig dit via taxi.</p>
-            <p className="Section-description"> Karlshällsvägen 14 <br></br> 117 33 Stockholm </p>
+            <p className='Info-title'>HITTA DIT</p>
+            <p className="Section-description-direction"> Karlshällsvägen 14 <br></br> 117 33 Stockholm </p>
           </div>
       </div>      
       <div className="Info-content js-scroll">
@@ -121,7 +123,7 @@ function App() {
       <div className='Form-content js-scroll'>
           <div className="form-description">
           <div className="Section-title">OSA</div>
-          <p className='Section-description'>OSA genom att fylla i formuläret, senast den 1a juni 2025.</p>
+          <p className='Section-description'>OSA genom att fylla i formuläret, senast den <strong>1a juni 2025</strong>.</p>
           <p className='Section-description'>Vi uppskattar om ni vill OSA en gång per person så att vi kan hålla koll på matpreferenser och allergier, tack!</p>
          </div>
       <div className= "form-container" ref={myRefBottom}>

@@ -89,6 +89,13 @@
 .App-link {
   color: #61dafb;
 }
+
+.Section-second-title{
+  font-size: 1.8em;
+  letter-spacing: 1px;
+  font-family: "Cormorant", serif;
+  font-weight: 800;
+}
 .Section-description{
   font-size: 1em;
   color: #8F021E;
@@ -109,6 +116,13 @@
 .Section-description-info{
   font-size: 1em;
   color: #FFF7CF;
+  font-family: "lato", serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.Section-description_direction{
+  font-size: 1em;
+  color: #8F021E;
   font-family: "lato", serif;
   font-weight: 400;
   letter-spacing: 1px;
@@ -173,7 +187,7 @@
 }
 
 .Venue-content img{
-  max-width: 30%;
+  max-width: 35%;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -224,7 +238,7 @@
   font-family:"Cormorant", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: calc(50px + 2vmin);
+  font-size: 4em;
   margin-bottom: 5%;
   letter-spacing: 1px;
 }
@@ -286,6 +300,7 @@
 }
 .form-container label {
   font-size: 1em;
+  letter-spacing: 1px;
   text-align: left;
 }
 .form-container input {
@@ -297,6 +312,7 @@
   font-size: 1em;
   padding: 0.5em;
   font-family: 'Lato';
+  letter-spacing: 1px;
 }
 
 .submit-button{
@@ -321,16 +337,15 @@
 
 @media only screen and (max-width: 768px) {
   .form-container {
-    padding:5%;
-    margin-top: 10%;
     justify-content: flex-start;
+    padding:5%;
+    width:100%;
   }
     .form-description{
     width:100%;
     padding:15%;
     justify-content: center;
     align-items: center;
-    margin-top: 10%;
     }
   .header-title-ElinSimon{
     font-size: 5em;
@@ -366,7 +381,7 @@ align-items: center;
 
 }
 .Schedule-content img{
-  max-width: 70%;
+  max-width: 60%;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -425,6 +440,7 @@ right: 0;
 .OSA-button{
   min-width: 120px;
   font-size: 1.2em;
+  margin-bottom: 15%;
 }
 }
 
