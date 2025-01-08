@@ -4,8 +4,9 @@ import { Popup } from "./popup"
 import { useRef } from 'react'
 import church from './högalid.png'
 import church_color from './Kyrka_trabsparent.png'
-import torn from './torn.png'
-import venue from './Carlshälls.png'
+import torn from './hög_stroke.png'
+import venue from './carls-red3.png'
+import cheers from './cheers11.png'
 
 
 function App() {
@@ -81,7 +82,7 @@ function App() {
       </header>
       <div className="Schedule-content js-scroll">
           <div className="Schedule-container">
-            <p className="Section-title">Högalidskyrkan</p>
+            <p className="Section-title">Högalids&shy;kyrkan</p>
             <p className="Section-second-title">14.45</p>
             <p className="Section-description-light"> Vigsel mellan Simon & Elin i Högalidskyrkan</p>
             <p className="Section-description-light"> Högalids kyrkväg 7</p>
@@ -104,22 +105,26 @@ function App() {
           </div>
       </div>      
       <div className="Info-content js-scroll">
-      <div className="Venue-container">
-        <p className="Section-title">Content</p>
-            <p className="Section-description-light"> Gemensam promenad till Carlshälls Gård på Långholmen för mingel med efterföljande middag & fest.</p>
-            <p className="Section-description-light"> Det tar ungefär 20 minuter att gå, men det går även bra att ta sig dit via taxi.</p>
-            <p className="Section-description-light"> Högalids kyrkväg 7</p>
-            <p className="Section-description-light"> 117 30 Stockholm</p>
+      <div className="Info-container">
+        <p className="Section-title">Info</p>
+        <p className='Info-title'>TAL</p>
+           <p className="Section-description-light"> Om ni vill hålla tal (kul!) så anmäler ni det till våra toastmasters XX på: xx@gmail.com. Anmäl gärna tal så snart som möjligt, men gärna inte senare än 1a september.</p>
+        <p className='Info-title'>GÅVOR</p>    
+            <p className="Section-description-light"> Er närvaro är den finaste gåvan vi kan få. Vill ni även ge oss en gåva så är det vi önskar oss mest utav allt ett bidrag till vår bröllopsresa (Swish till 076-867 98 75).</p>
+        <p className='Info-title'>BARN</p>       
+            <p className="Section-description-light"> Alla, barn som vuxna, är hjärtligt välkomna till vigseln. Efterföljande middag och fest är dock till för vuxna. Ammande barn och spädbarn är självklart välkomna.</p>
+          <p className='Info-title'>KLÄDKOD</p>       
+            <p className="Section-description-light"> Mörk kostym</p>
         </div>
-        <div className="Schedule-image-container">
-          <img className="Church-image" src={torn}></img>
+        <div className="Info-image-container">
+          <img className="Church-image" src={cheers}></img>
           </div>
       </div>
       <div className='Form-content js-scroll'>
           <div className="form-description">
           <div className="Section-title">OSA</div>
-          <div>OSA genom att fylla i formuläret, senast den 30e juni 2025.</div>
-          <div>Vu uppskattar om ni vill OSA en gång per person så att vi kan hålla koll på matpreferenser och allergier, tack!</div>
+          <p className='Section-description'>OSA genom att fylla i formuläret, senast den 1a juni 2025.</p>
+          <p className='Section-description'>Vi uppskattar om ni vill OSA en gång per person så att vi kan hålla koll på matpreferenser och allergier, tack!</p>
          </div>
       <div className= "form-container" ref={myRefBottom}>
      
