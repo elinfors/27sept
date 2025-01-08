@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import { Popup } from "./popup"
 import { useRef } from 'react'
-import torn from './hög_stroke.png'
+import torn from './church_stroke.png'
 import venue from './carls-red3.png'
 import cheers from './cheers11.png'
 
@@ -86,7 +86,7 @@ function App() {
             <p className="Section-description-info"> Högalids kyrkväg 7 <br></br> 117 30 Stockholm </p>
           </div>
           <div className="Schedule-image-container">
-          <img className="Church-image" src={venue}></img>
+          <img className="Church-image" src={torn}></img>
           </div>
       </div>  
       <div className="Venue-content js-scroll">
