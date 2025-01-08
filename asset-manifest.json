@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/elinfors.github.io/27sept/static/css/main.e9fe0979.css",
+    "main.js": "/elinfors.github.io/27sept/static/js/main.6b1c906a.js",
+    "static/js/453.e34dcc89.chunk.js": "/elinfors.github.io/27sept/static/js/453.e34dcc89.chunk.js",
+    "static/media/Kyrka_trabsparent.png": "/elinfors.github.io/27sept/static/media/Kyrka_trabsparent.7f001ba453350d566433.png",
+    "static/media/cheers11.png": "/elinfors.github.io/27sept/static/media/cheers11.7ee98ad7611909a88e5b.png",
+    "static/media/hög_stroke.png": "/elinfors.github.io/27sept/static/media/hög_stroke.912b684bb0598a9f016a.png",
+    "static/media/carls-red3.png": "/elinfors.github.io/27sept/static/media/carls-red3.5787b42e1861239c5cf7.png",
+    "static/media/högalid.png": "/elinfors.github.io/27sept/static/media/högalid.73b67b8c31f91af70004.png",
+    "static/media/headerImage6.png": "/elinfors.github.io/27sept/static/media/headerImage6.d55bc6818966cc071a0e.png",
+    "static/media/footerImage.png": "/elinfors.github.io/27sept/static/media/footerImage.9cb7d8df6b243187a051.png",
+    "index.html": "/elinfors.github.io/27sept/index.html",
+    "main.e9fe0979.css.map": "/elinfors.github.io/27sept/static/css/main.e9fe0979.css.map",
+    "main.6b1c906a.js.map": "/elinfors.github.io/27sept/static/js/main.6b1c906a.js.map",
+    "453.e34dcc89.chunk.js.map": "/elinfors.github.io/27sept/static/js/453.e34dcc89.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9fe0979.css",
+    "static/js/main.6b1c906a.js"
+  ]
+}
