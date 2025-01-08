@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/27sept/static/css/main.c65f554c.css",
-    "main.js": "/27sept/static/js/main.8b65c79c.js",
+    "main.js": "/27sept/static/js/main.d295510c.js",
     "static/js/453.e34dcc89.chunk.js": "/27sept/static/js/453.e34dcc89.chunk.js",
     "static/media/cheers11.png": "/27sept/static/media/cheers11.7ee98ad7611909a88e5b.png",
-    "static/media/hög_stroke.png": "/27sept/static/media/hög_stroke.912b684bb0598a9f016a.png",
+    "static/media/church_stroke.png": "/27sept/static/media/church_stroke.912b684bb0598a9f016a.png",
     "static/media/carls-red3.png": "/27sept/static/media/carls-red3.5787b42e1861239c5cf7.png",
     "static/media/headerImage6.png": "/27sept/static/media/headerImage6.d55bc6818966cc071a0e.png",
     "static/media/footerImage.png": "/27sept/static/media/footerImage.9cb7d8df6b243187a051.png",
     "index.html": "/27sept/index.html",
     "main.c65f554c.css.map": "/27sept/static/css/main.c65f554c.css.map",
-    "main.8b65c79c.js.map": "/27sept/static/js/main.8b65c79c.js.map",
+    "main.d295510c.js.map": "/27sept/static/js/main.d295510c.js.map",
     "453.e34dcc89.chunk.js.map": "/27sept/static/js/453.e34dcc89.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c65f554c.css",
-    "static/js/main.8b65c79c.js"
+    "static/js/main.d295510c.js"
   ]
 }
