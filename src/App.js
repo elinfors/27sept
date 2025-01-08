@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import './App.css';
 import { Popup } from "./popup"
 import { useRef } from 'react'
-import church from './högalid.png'
-import church_color from './Kyrka_trabsparent.png'
 import torn from './hög_stroke.png'
 import venue from './carls-red3.png'
 import cheers from './cheers11.png'
