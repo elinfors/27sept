@@ -31,6 +31,7 @@
   color: #8F021E;
   align-items: center;
   padding:10%;
+  text-align: center;
 }
 
 .header-small-title{
@@ -39,6 +40,7 @@
   color: #8F021E;
   font-family: "Lato", serif;
   letter-spacing: 1px;
+  text-align: center;
 }
 .header-date-small{
   margin-top: 1%;
@@ -47,6 +49,7 @@
   font-family: "lato", serif;
   font-weight: 400;
   letter-spacing: 1px;
+  text-align: center;
 
 }
 .header-location{
@@ -62,6 +65,7 @@
   left: 0;
   bottom: 0;
   right: 0;
+  text-align: center;
 
 }
 .OSA-button{
@@ -98,7 +102,7 @@
   font-weight: 800;
 }
 .Section-description{
-  font-size: 1em;
+  font-size: 0.8em;
   color: #8F021E;
   font-family: "lato", serif;
   font-weight: 400;
@@ -108,21 +112,21 @@
 }
 .Section-description-light{
   color: #FFF7CF;
-  font-size: 1em;
+  font-size: 0.8em;
   font-family: "lato", serif;
   font-weight: 400;
   letter-spacing: 1px;
   margin-top: 5%;
 }
 .Section-description-info{
-  font-size: 1em;
+  font-size: 0.8em;
   color: #FFF7CF;
   font-family: "lato", serif;
   font-weight: 400;
   letter-spacing: 1px;
 }
 .Section-description_direction{
-  font-size: 1em;
+  font-size: 0.8em;
   color: #8F021E;
   font-family: "lato", serif;
   font-weight: 400;
@@ -300,7 +304,7 @@
   cursor: pointer;
 }
 .form-container label {
-  font-size: 1em;
+  font-size: 0.8em;
   letter-spacing: 1px;
   text-align: left;
 }
@@ -310,7 +314,7 @@
   letter-spacing: 0.1em;
   background: #ffffff;
   color:#717171;
-  font-size: 1em;
+  font-size: 0.8em;
   padding: 0.5em;
   font-family: 'Lato';
   letter-spacing: 1px;
@@ -365,14 +369,15 @@
   height: 100vh;
   justify-content: flex-start;
   position:relative;
+  text-align: center;
 }
 .Section-title{
   overflow-x: hidden;
   word-wrap: break-word;
+  text-align: center;
 }
 .Schedule-container{
   justify-content: center;
-  margin-top: 20%;
   line-break: normal;
   padding:10%
 }
@@ -382,7 +387,7 @@ align-items: center;
 
 }
 .Schedule-content img{
-  max-width: 60%;
+  max-width: 40%;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -395,7 +400,6 @@ align-items: center;
 }
 .Venue-container{
   justify-content: center;
-  margin-top: 20%;
   padding:10%
 }
 .Venue-image-container{
@@ -404,7 +408,7 @@ align-items: center;
 
 }
 .Venue-content img{
-  max-width: 60%;
+  max-width: 40%;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -418,7 +422,7 @@ align-items: center;
 }
 .Info-container{
   justify-content: center;
-  padding:10%
+  padding:10%;
 }
 .Info-image-container{
 justify-content: center;
@@ -426,14 +430,14 @@ align-items: center;
 
 }
 .Info-content img{
-  max-width: 60%;
+  max-width: 40%;
   position: absolute;
   right: 0;
   bottom: 0;
 }
 .header-button{
-padding: 15%;
-position: absolute;
+padding: 10%;
+position: relative;
 left: 0;
 bottom: 0;
 right: 0;
@@ -441,7 +445,7 @@ right: 0;
 .OSA-button{
   min-width: 120px;
   font-size: 1.2em;
-  margin-bottom: 15%;
+  margin-bottom: 5%;
 }
 }
 
