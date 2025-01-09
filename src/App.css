@@ -108,6 +108,7 @@
   font-weight: 400;
   letter-spacing: 1px;
   margin-top: 5%;
+  text-align: center;
   
 }
 .Section-description-light{
@@ -117,6 +118,7 @@
   font-weight: 400;
   letter-spacing: 1px;
   margin-top: 5%;
+  text-align: center;
 }
 .Section-description-info{
   font-size: 0.8em;
@@ -124,13 +126,16 @@
   font-family: "lato", serif;
   font-weight: 400;
   letter-spacing: 1px;
+  text-align: center;
 }
 .Section-description_direction{
-  font-size: 0.8em;
   color: #8F021E;
+  font-size: 0.8em;
   font-family: "lato", serif;
   font-weight: 400;
   letter-spacing: 1px;
+  text-align: center;
+ 
 }
 
 .Schedule-content{
@@ -238,6 +243,7 @@
   margin-top: 5%;
   margin-bottom: 2%;
   font-size: 1.2em;
+  text-align: center;
 }
 .Section-title{
   font-family:"Cormorant", serif;
@@ -246,6 +252,7 @@
   font-size: 4em;
   margin-bottom: 5%;
   letter-spacing: 1px;
+  text-align: center;
 }
 .Form-content{
   background-image: url(./footerImage.png);
