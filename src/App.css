@@ -394,7 +394,7 @@ align-items: center;
 
 }
 .Schedule-content img{
-  max-width: 40%;
+  max-width: 50%;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -415,7 +415,7 @@ align-items: center;
 
 }
 .Venue-content img{
-  max-width: 40%;
+  max-width: 50%;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -437,7 +437,7 @@ align-items: center;
 
 }
 .Info-content img{
-  max-width: 40%;
+  max-width: 50%;
   position: absolute;
   right: 0;
   bottom: 0;
