@@ -83,7 +83,7 @@ function App() {
             <p className="Section-second-title">14.45</p>
             <p className="Section-description-light"> Vigsel mellan Simon & Elin i Högalidskyrkan.<br></br>Varmt välkomna att vara på plats med lite marginal så alla hinner ta plats innan vi drar igång.</p>
             <p className='Info-title'>HITTA DIT</p>
-            <p className="Section-description-info"> Högalids kyrkväg 7 <br></br> 117 30 Stockholm </p>
+            <p className="Section-description-light-direction"> Högalids kyrkväg 7 <br></br> 117 30 Stockholm </p>
           </div>
           <div className="Schedule-image-container">
           <img className="Church-image" src={torn}></img>

@@ -126,9 +126,8 @@
   font-family: "lato", serif;
   font-weight: 400;
   letter-spacing: 1px;
-  text-align: center;
 }
-.Section-description_direction{
+.Section-description-direction{
   color: #8F021E;
   font-size: 0.8em;
   font-family: "lato", serif;
@@ -136,6 +135,14 @@
   letter-spacing: 1px;
   text-align: center;
  
+}
+.Section-description-light-direction{
+  color: #FFF7CF;
+  font-size: 0.8em;
+  font-family: "lato", serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: center;
 }
 
 .Schedule-content{
