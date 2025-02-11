@@ -3,7 +3,7 @@ import './App.css';
 import { Popup } from "./popup"
 import { useRef } from 'react'
 import torn from './church_stroke.png'
-import venue from './carls-red3.png'
+import venue from './carls-red.png'
 import cheers from './cheers11.png'
 
 
@@ -80,8 +80,8 @@ function App() {
       <div className="Schedule-content js-scroll">
           <div className="Schedule-container">
             <p className="Section-title">Högalids&shy;kyrkan</p>
-            <p className="Section-second-title">14.45</p>
-            <p className="Section-description-light"> Vigsel mellan Simon & Elin i Högalidskyrkan.<br></br>Varmt välkomna att vara på plats med lite marginal så alla hinner ta plats innan vi drar igång.</p>
+            <p className="Section-second-title">14.30</p>
+            <p className="Section-description-light"> Vigsel i Högalidskyrkan</p>
             <p className='Info-title'>HITTA DIT</p>
             <p className="Section-description-light-direction"> Högalids kyrkväg 7 <br></br> 117 30 Stockholm </p>
           </div>
@@ -96,9 +96,9 @@ function App() {
           <div className="Venue-container">
             <p className="Section-title">Carlshälls Gård</p>
             <p className="Section-second-title">16.30</p>
-            <p className="Section-description"> Gemensam promenad till Carlshälls Gård på Långholmen för mingel från 16.30 med efterföljande middag & fest mellan 18 och 03.</p>
-            <p className="Section-description"> Det tar ungefär 20 minuter att gå, men det går även bra att ta sig dit via taxi.</p>
-            <p className='Info-title'>HITTA DIT</p>
+            <p className="Section-description"> Gemensam promenad till Carlshälls Gård på Långholmen för mingel från 16.30 med efterföljande middag & fest mellan 18.00 och 02.00</p>
+             <p className='Info-title'>HITTA DIT</p>
+             <p className="Section-description-direction"> Det tar ungefär 20 minuter att gå från kyrkan, men det går även bra att ta sig dit med bil vid behov, dock finns ett begränsat antal parkeringplatser. Hör av er i god tid innan om ni behöver kunna parkera så löser vi det!</p>
             <p className="Section-description-direction"> Karlshällsvägen 14 <br></br> 117 33 Stockholm </p>
           </div>
       </div>      
@@ -106,7 +106,7 @@ function App() {
       <div className="Info-container">
         <p className="Section-title">Info</p>
         <p className='Info-title'>TAL</p>
-           <p className="Section-description-info"> Om ni vill hålla tal (kul!) så anmäler ni det till våra toastmasters XX på: xx@gmail.com. Anmäl gärna tal så snart som möjligt, men gärna inte senare än 1a september.</p>
+           <p className="Section-description-info"> Om ni vill hålla tal så anmäler ni det till våra toastmasters Märta Wistrand & Herman Wistrand på: xx@gmail.com. Anmäl gärna tal så snart som möjligt, men senast den 1a september.</p>
         <p className='Info-title'>GÅVOR</p>    
             <p className="Section-description-info"> Er närvaro är den finaste gåvan vi kan få. Vill ni även ge oss en gåva så är det vi önskar oss mest utav allt ett bidrag till vår bröllopsresa (Swish till 076-867 98 75).</p>
         <p className='Info-title'>BARN</p>       
@@ -152,9 +152,9 @@ function App() {
             value={Email}
             placeholder="Mailadress"
             className="form-input"
-            /*required
+            required
             onInvalid={(e) => e.target.setCustomValidity('Vänligen fyll i din mailadress')}
-            onInput={(e) => e.target.setCustomValidity('')}*/
+            onInput={(e) => e.target.setCustomValidity('')}
           />
         </div>
         <div className="form-radio-section">
