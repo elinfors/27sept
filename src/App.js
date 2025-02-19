@@ -3,7 +3,7 @@ import './App.css';
 import { Popup } from "./popup"
 import { useRef } from 'react'
 import torn from './church_stroke.png'
-import venue from './carls-red.png'
+import venue from './carls_red_new.png'
 import cheers from './cheers11.png'
 
 
