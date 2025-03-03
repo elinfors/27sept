@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/27sept/static/css/main.e8ae55cf.css",
-    "main.js": "/27sept/static/js/main.5594de51.js",
+    "main.js": "/27sept/static/js/main.d7cb0ef9.js",
     "static/js/453.e34dcc89.chunk.js": "/27sept/static/js/453.e34dcc89.chunk.js",
-    "static/media/carls-red.png": "/27sept/static/media/carls-red.0e172999393c59af36cf.png",
     "static/media/cheers11.png": "/27sept/static/media/cheers11.7ee98ad7611909a88e5b.png",
     "static/media/church_stroke.png": "/27sept/static/media/church_stroke.912b684bb0598a9f016a.png",
+    "static/media/carls_red_new.png": "/27sept/static/media/carls_red_new.9a15104d9b23c2857c43.png",
     "static/media/headerImage6.png": "/27sept/static/media/headerImage6.d55bc6818966cc071a0e.png",
     "static/media/footerImage.png": "/27sept/static/media/footerImage.9cb7d8df6b243187a051.png",
     "index.html": "/27sept/index.html",
     "main.e8ae55cf.css.map": "/27sept/static/css/main.e8ae55cf.css.map",
-    "main.5594de51.js.map": "/27sept/static/js/main.5594de51.js.map",
+    "main.d7cb0ef9.js.map": "/27sept/static/js/main.d7cb0ef9.js.map",
     "453.e34dcc89.chunk.js.map": "/27sept/static/js/453.e34dcc89.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e8ae55cf.css",
-    "static/js/main.5594de51.js"
+    "static/js/main.d7cb0ef9.js"
   ]
 }
