@@ -5,7 +5,7 @@ import { useRef } from 'react'
 import torn from './church_stroke.png'
 import venue from './carls_red_new.png'
 import cheers from './cheers11.png'
-
+import water from './vattenkokare1.png'
 
 function App() {
 
@@ -95,8 +95,8 @@ function App() {
           </div>
           <div className="Venue-container">
             <p className="Section-title">Carlshälls Gård</p>
-            <p className="Section-second-title">16.30</p>
-            <p className="Section-description"> Gemensam promenad till Carlshälls Gård på Långholmen för mingel från 16.30 med efterföljande middag & fest mellan 18.00 och 02.00</p>
+           {/*<p className="Section-second-title">16.30</p>*/}
+            <p className="Section-description"> Gemensam promenad till Carlshälls Gård på Långholmen för mingel med efterföljande middag & fest fram till 03.00 för den kvällspigga.</p>
              <p className='Info-title'>HITTA DIT</p>
              <p className="Section-description-direction"> Det tar ungefär 20 minuter att gå från kyrkan, men det går även bra att ta sig dit med bil vid behov, dock finns ett begränsat antal parkeringplatser. Hör av er i god tid innan om ni behöver kunna parkera så löser vi det!</p>
             <p className="Section-description-direction"> Karlshällsvägen 14 <br></br> 117 33 Stockholm </p>
@@ -112,7 +112,7 @@ function App() {
         <p className='Info-title'>BARN</p>       
             <p className="Section-description-info"> Alla, barn som vuxna, är hjärtligt välkomna till vigseln. Efterföljande middag och fest är dock till för vuxna. Ammande barn och spädbarn är självklart välkomna.</p>
           <p className='Info-title'>KLÄDKOD</p>       
-            <p className="Section-description-info"> Mörk kostym</p>
+            <p className="Section-description-info"> Mörk kostym <br></br>Det absolut viktigaste är att du känner dig fin! Se klädkoden som guidande men inte strikt. Uppklätt uppmuntras!</p>
         </div>
         <div className="Info-image-container">
           <img className="Church-image" src={cheers}></img>
@@ -199,7 +199,11 @@ function App() {
     </form>
 
       </div>
+      <div className="Water-image-container">
+            <img className="Water-image" src={water}></img>
+          </div>
       </div>
+
     </div>
   );
 }

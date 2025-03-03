@@ -354,6 +354,15 @@
 .submit-button:focus{
   background-color:  #8f132c;
 }
+.Water-image-container{
+  display: flex;
+  flex-direction: column;
+  width:10%;
+  justify-content: flex-end;
+}
+.Form-content img{
+  padding:15%
+}
 
 @media only screen and (max-width: 768px) {
   .form-container {
