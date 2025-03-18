@@ -112,7 +112,7 @@ function App() {
         <p className='Info-title'>BARN</p>       
             <p className="Section-description-info"> Alla, barn som vuxna, är hjärtligt välkomna till vigseln. Efterföljande middag och fest är dock till för vuxna. Ammande barn och spädbarn är självklart välkomna.</p>
           <p className='Info-title'>KLÄDKOD</p>       
-            <p className="Section-description-info"> Mörk kostym <br></br>Det absolut viktigaste är att du känner dig fin! Se klädkoden som guidande men inte strikt. Uppklätt uppmuntras!</p>
+            <p className="Section-description-info"> Mörk kostym </p>
         </div>
         <div className="Info-image-container">
           <img className="Church-image" src={cheers}></img>
@@ -144,9 +144,10 @@ function App() {
             />
         </div>
         <div className="form-input-section">
-        <label>Mailadress</label>
+        <label for="email">Mailadress</label>
             <input
-            type="text"
+            type="email" 
+            id="email" 
             name="Email"
             onChange={handleChangeEmail}
             value={Email}
