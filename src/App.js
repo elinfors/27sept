@@ -96,9 +96,9 @@ function App() {
           <div className="Venue-container">
             <p className="Section-title">Carlshälls Gård</p>
            {/*<p className="Section-second-title">16.30</p>*/}
-            <p className="Section-description"> Gemensam promenad till Carlshälls Gård på Långholmen för mingel med efterföljande middag & fest fram till 03.00 för den kvällspigga.</p>
+            <p className="Section-description"> Gemensam promenad till Carlshälls Gård på Långholmen för mingel med efterföljande middag & fest fram till 02.00.</p>
              <p className='Info-title'>HITTA DIT</p>
-             <p className="Section-description-direction"> Det tar ungefär 20 minuter att gå från kyrkan, men det går även bra att ta sig dit med bil vid behov, dock finns ett begränsat antal parkeringplatser. Hör av er i god tid innan om ni behöver kunna parkera så löser vi det!</p>
+             <p className="Section-description-direction"> Det tar ungefär 20-30 minuter att gå från kyrkan, men det går även bra att ta sig dit med bil vid behov, dock finns ett begränsat antal parkeringplatser. Hör av er i god tid innan om ni behöver kunna parkera så löser vi det!</p>
             <p className="Section-description-direction"> Karlshällsvägen 14 <br></br> 117 33 Stockholm </p>
           </div>
       </div>      
@@ -106,7 +106,7 @@ function App() {
       <div className="Info-container">
         <p className="Section-title">Info</p>
         <p className='Info-title'>TAL</p>
-           <p className="Section-description-info"> Om ni vill hålla tal så anmäler ni det till våra toastmasters Märta Wistrand & Herman Wistrand på: xx@gmail.com. Anmäl gärna tal så snart som möjligt, men senast den 1a september.</p>
+           <p className="Section-description-info"> Om ni vill hålla tal så anmäler ni det till våra toastmasters Märta Wistrand & Herman Wistrand på: tal@elinsimon.se. Anmäl gärna tal så snart som möjligt, men senast den 1a september.</p>
         <p className='Info-title'>GÅVOR</p>    
             <p className="Section-description-info"> Er närvaro är den finaste gåvan vi kan få. Vill ni även ge oss en gåva så är det vi önskar oss mest utav allt ett bidrag till vår bröllopsresa (Swish till 076-867 98 75).</p>
         <p className='Info-title'>BARN</p>       
@@ -121,7 +121,7 @@ function App() {
       <div className='Form-content js-scroll'>
           <div className="form-description">
           <div className="Section-title">OSA</div>
-          <p className='Section-description'>OSA genom att fylla i formuläret, senast den <strong>1a juni 2025</strong>.</p>
+          <p className='Section-description'>OSA genom att fylla i formuläret, senast den <strong>1a augusti 2025</strong>.</p>
           <p className='Section-description'>Vi uppskattar om ni vill OSA en gång per person så att vi kan hålla koll på matpreferenser och allergier, tack!</p>
          </div>
       <div className= "form-container" ref={myRefBottom}>

@@ -311,12 +311,12 @@
     column-gap: 1em;
     flex-direction: column;
     row-gap: 1em;
-    cursor: pointer;
+
 }
 .form-radio-item{
   display: flex;
   column-gap: 1em;
-  cursor: pointer;
+
 }
 .form-container label {
   font-size: 0.8em;
@@ -333,6 +333,12 @@
   padding: 0.5em;
   font-family: 'Lato';
   letter-spacing: 1px;
+}
+input[type=radio] {
+  cursor: pointer;
+  border: 0px;
+  width: 10%;
+  height: 2em;
 }
 
 .submit-button{
@@ -470,6 +476,11 @@ right: 0;
   min-width: 120px;
   font-size: 1.2em;
   margin-bottom: 5%;
+}
+input[type=radio] {
+  border: 0px;
+  width: 10%;
+  height: 2em;
 }
 }
 
