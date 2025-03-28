@@ -27,6 +27,7 @@
 .header-title-ElinSimon{
   font-size: 7em;
   font-family: "Cormorant", serif;
+  font-weight: bold;
   letter-spacing: 2px;
   color: #8F021E;
   align-items: center;
@@ -137,6 +138,7 @@
   margin-bottom: 5%;
  
 }
+
 .Section-description-light-direction{
   color: #FFF7CF;
   font-size: 0.8em;
@@ -144,6 +146,7 @@
   font-weight: 400;
   letter-spacing: 1px;
   text-align: center;
+  margin-bottom: 5%;
 }
 
 .Schedule-content{
@@ -177,6 +180,40 @@
   right: 0;
   bottom: 0;
   margin-right:5%;
+}
+.Link-div{
+  cursor: pointer;
+}
+.Church-link{
+color:#FFF7CF;
+  font-size: 0.8em;
+  font-family: "lato", serif;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.Church-link:hover{
+    cursor: pointer;
+    color:#ded39d;
+  }
+  .Church-link:focus{
+    cursor: pointer;
+    color:#FFF7CF;
+  }
+
+.Venue-link{
+  color:#8F021E;
+  font-size: 0.8em;
+  font-family: "lato", serif;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.Venue-link:hover{
+  cursor: pointer;
+  color:#610013;
+}
+.Venue-link:focus{
+  cursor: pointer;
+  color:#8F021E;
 }
 .Venue-content{
   background-color: #FFF7CF;

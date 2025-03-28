@@ -67,7 +67,7 @@ function App() {
           27 september 2025
           </div>
         <div className="header-title-ElinSimon">
-          ELIN & SIMON
+          Elin & Simon
           </div>
           <div className="header-date-small">
           Vi ska gifta oss och hoppas att du vill fira det ihop med oss!
@@ -84,6 +84,7 @@ function App() {
             <p className="Section-description-light"> Vigsel i Högalidskyrkan</p>
             <p className='Info-title'>HITTA DIT</p>
             <p className="Section-description-light-direction"> Högalids kyrkväg 7 <br></br> 117 30 Stockholm </p>
+            <a className="Church-link" href="https://maps.app.goo.gl/hSVkbaTn2gJWiyge7" target="_blank">Öppna i Google Maps</a>
           </div>
           <div className="Schedule-image-container">
           <img className="Church-image" src={torn}></img>
@@ -100,6 +101,7 @@ function App() {
              <p className='Info-title'>HITTA DIT</p>
              <p className="Section-description-direction"> Det tar ungefär 20-30 minuter att gå från kyrkan, men det går även bra att ta sig dit med bil vid behov, dock finns ett begränsat antal parkeringplatser. Hör av er i god tid innan om ni behöver kunna parkera så löser vi det!</p>
             <p className="Section-description-direction"> Karlshällsvägen 14 <br></br> 117 33 Stockholm </p>
+            <a className="Venue-link" href="https://maps.app.goo.gl/k7GDNcBs8zuhkDyv7" target="_blank">Öppna i Google Maps</a>
           </div>
       </div>      
       <div className="Info-content js-scroll">
