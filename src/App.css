@@ -10,7 +10,7 @@
   transition: opacity 800ms;
 }
 .App-header {
-  background-image: url(./headerImage6.png);
+  background-image: url(./headerImage2-new-2.png);
   background-position: top center;
   background-size: cover;
   min-height: 100vh;
@@ -300,7 +300,7 @@ color:#FFF7CF;
   text-align: center;
 }
 .Form-content{
-  background-image: url(./footerImage.png);
+  background-image: url(./footer-new.png);
   background-position: bottom center;
   background-size: cover;
   min-height: 100vh;
