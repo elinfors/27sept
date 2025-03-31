@@ -19,7 +19,7 @@
   justify-content: center;
 }
 .header-content{
-  padding: 7%;
+  padding: 15%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,15 +28,14 @@
   font-size: 7em;
   font-family: "Cormorant", serif;
   font-weight: bold;
-  letter-spacing: 2px;
   color: #8F021E;
   align-items: center;
-  padding:10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   text-align: center;
 }
 
 .header-small-title{
-  margin-top: 1%;
   font-size: 1em;
   color: #8F021E;
   font-family: "Lato", serif;
@@ -44,7 +43,6 @@
   text-align: center;
 }
 .header-date-small{
-  margin-top: 1%;
   font-size: 1em;
   color: #8F021E;
   font-family: "lato", serif;
@@ -408,6 +406,10 @@ input[type=radio] {
 }
 
 @media only screen and (max-width: 768px) {
+  .App-header {
+    background-image: url(./Header-mobile-big.png);
+  }
+
   .form-container {
     justify-content: flex-start;
     padding:5%;
@@ -420,13 +422,18 @@ input[type=radio] {
     align-items: center;
     }
   .header-title-ElinSimon{
-    font-size: 5em;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 20%;
-    padding-top: 20%;
+    font-size: 3em;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+.header-date-small{
+  font-size: 0.8em;
+}
+.header-small-title{
+  font-size: 0.8em;
 }
 .Form-content{
+  background-image: url(./Footer-mobile-big.png);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -446,7 +453,7 @@ input[type=radio] {
 .Schedule-container{
   justify-content: center;
   line-break: normal;
-  padding:10%
+  padding:20%
 }
 .Schedule-image-container{
 justify-content: center;
@@ -467,7 +474,7 @@ align-items: center;
 }
 .Venue-container{
   justify-content: center;
-  padding:10%
+  padding:20%
 }
 .Venue-image-container{
 justify-content: center;
@@ -489,7 +496,7 @@ align-items: center;
 }
 .Info-container{
   justify-content: center;
-  padding:10%;
+  padding:20%;
 }
 .Info-image-container{
 justify-content: center;
@@ -503,7 +510,7 @@ align-items: center;
   bottom: 0;
 }
 .header-button{
-padding: 10%;
+margin-top: 20%;
 position: relative;
 left: 0;
 bottom: 0;
