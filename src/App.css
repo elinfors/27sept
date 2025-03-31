@@ -417,7 +417,8 @@ input[type=radio] {
   }
     .form-description{
     width:100%;
-    padding:15%;
+    padding-left: 15%;
+    padding-right: 15%;
     justify-content: center;
     align-items: center;
     }
@@ -449,11 +450,12 @@ input[type=radio] {
   overflow-x: hidden;
   word-wrap: break-word;
   text-align: center;
+  font-size: 3em;
 }
 .Schedule-container{
   justify-content: center;
   line-break: normal;
-  padding:20%
+  padding:15%
 }
 .Schedule-image-container{
 justify-content: center;
@@ -474,7 +476,7 @@ align-items: center;
 }
 .Venue-container{
   justify-content: center;
-  padding:20%
+  padding:15%
 }
 .Venue-image-container{
 justify-content: center;
@@ -496,7 +498,7 @@ align-items: center;
 }
 .Info-container{
   justify-content: center;
-  padding:20%;
+  padding: 15%;
 }
 .Info-image-container{
 justify-content: center;

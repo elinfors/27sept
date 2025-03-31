@@ -79,7 +79,8 @@ function App() {
       </header>
       <div className="Schedule-content js-scroll">
           <div className="Schedule-container">
-            <p className="Section-title">Högalids&shy;kyrkan</p>
+           {/* <p className="Section-title">Högalids&shy;kyrkan</p>*/}
+            <p className="Section-title">Högalidskyrkan</p>
             <p className="Section-second-title">14.30</p>
             <p className="Section-description-light"> Vigsel i Högalidskyrkan</p>
             <p className='Info-title'>HITTA DIT</p>
