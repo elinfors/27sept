@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.58e110df.css",
-    "main.js": "/static/js/main.42751eb6.js",
+    "main.css": "/static/css/main.16afa804.css",
+    "main.js": "/static/js/main.6a70053c.js",
     "static/js/453.e34dcc89.chunk.js": "/static/js/453.e34dcc89.chunk.js",
     "static/media/cheers11.png": "/static/media/cheers11.7ee98ad7611909a88e5b.png",
     "static/media/church_stroke.png": "/static/media/church_stroke.912b684bb0598a9f016a.png",
     "static/media/vattenkokare1.png": "/static/media/vattenkokare1.cc806843c14b444efec5.png",
     "static/media/carls_red_new.png": "/static/media/carls_red_new.9a15104d9b23c2857c43.png",
     "static/media/Header-mobile-big.png": "/static/media/Header-mobile-big.5c9c2aea3277cfc69f87.png",
-    "static/media/Footer-mobile-big.png": "/static/media/Footer-mobile-big.8da2059a74f2241f181b.png",
+    "static/media/Footer-mobile-big.png": "/static/media/Footer-mobile-big.0442cd69f11ed7875221.png",
     "static/media/headerImage2-new-2.png": "/static/media/headerImage2-new-2.3f2483bd6e29fbe1693e.png",
     "static/media/footer-new.png": "/static/media/footer-new.2cb17d63b9835707fadc.png",
     "index.html": "/index.html",
-    "main.58e110df.css.map": "/static/css/main.58e110df.css.map",
-    "main.42751eb6.js.map": "/static/js/main.42751eb6.js.map",
+    "main.16afa804.css.map": "/static/css/main.16afa804.css.map",
+    "main.6a70053c.js.map": "/static/js/main.6a70053c.js.map",
     "453.e34dcc89.chunk.js.map": "/static/js/453.e34dcc89.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.58e110df.css",
-    "static/js/main.42751eb6.js"
+    "static/css/main.16afa804.css",
+    "static/js/main.6a70053c.js"
   ]
 }
