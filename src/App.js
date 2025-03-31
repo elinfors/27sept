@@ -202,9 +202,9 @@ function App() {
     </form>
 
       </div>
-      <div className="Water-image-container">
+     {/* <div className="Water-image-container">
             <img className="Water-image" src={water}></img>
-          </div>
+          </div>*/}
       </div>
 
     </div>
