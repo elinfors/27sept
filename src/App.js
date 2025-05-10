@@ -72,9 +72,10 @@ function App() {
           <div className="header-date-small">
           Vi ska gifta oss och hoppas att du vill fira det ihop med oss!
           </div>
+          {/*
           <div className="header-button">
           <button className="OSA-button" onClick={scrollToBottom}>OSA</button>
-          </div>
+          </div>*/}
           </div>
       </header>
       <div className="Schedule-content js-scroll">
