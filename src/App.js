@@ -116,7 +116,7 @@ function App() {
         <p className='Info-title'>BARN</p>       
             <p className="Section-description-info"> Alla, barn som vuxna, är hjärtligt välkomna till vigseln. Efterföljande middag och fest är dock till för vuxna. Ammande barn och spädbarn är självklart välkomna.</p>
           <p className='Info-title'>KLÄDKOD</p>       
-            <p className="Section-description-info"> Mörk kostym. Svart kostym och röd klänning går jättebra att ha! </p>
+            <p className="Section-description-info"> Mörk kostym. Svart kostym och röd klänning ingår i klädkoden och går jättebra att ha! </p>
         </div>
         <div className="Info-image-container">
           <img className="Church-image" src={cheers}></img>
